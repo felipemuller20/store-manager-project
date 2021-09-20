@@ -1,3 +1,4 @@
+const { serverUnavailable } = require('@hapi/boom');
 const frisby = require('frisby');
 const { MongoClient } = require('mongodb');
 
